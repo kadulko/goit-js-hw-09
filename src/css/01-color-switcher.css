@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 120px;
+  height: 60px;
+  border-radius: 1px;
+  border: 0px;
+  font-size: 20px;
+
+  text-transform: uppercase;
+  margin: 20px;
+  cursor: pointer;
+}
+button:disabled {
+  cursor: default;
+}
